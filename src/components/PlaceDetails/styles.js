@@ -10,4 +10,7 @@ export default makeStyles(() => ({
   spacing: {
     display: 'flex', alignItems: 'center', justifyContent: 'space-between',
   },
+  "::-webkit-scrollbar": { width: "20px" },
+  "::-webkit-scrollbar-thumb": { backgroundColor: "#888", borderRadius: "5px" }
+
 }));

@@ -1,0 +1,18 @@
+.social-media-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #000; /* You can change the color as needed */
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+  
+  .social-media-icon svg {
+    margin-bottom: 5px; /* Adjust the vertical spacing between the icon and text */
+  }
+  
