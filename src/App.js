@@ -52,7 +52,7 @@ const App = () => {
 
     return (
         <React.Fragment>
-            <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY} libraries={["places", "geometry", "drawing"]}>
+            <LoadScript googleMapsApiKey={'AIzaSyCpXOZgIIhv3y40tWMv1yYckc3YgYPYpn8'} libraries={["places", "geometry", "drawing"]}>
                 <CssBaseline />
                 <Header onLoad={onLoad} onPlaceChanged={onPlaceChanged} />
                 <Grid container spacing={3} style={{ width: '100%' }}>
